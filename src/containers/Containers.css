@@ -1,0 +1,8 @@
+.main {
+    background-color: rgb(161, 204, 245);
+    height: 83vh;
+}
+
+.main h2,p {
+    margin: 15px;
+}

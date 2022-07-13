@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 10vh;
+    background-color: rgb(173, 121, 207);
+    color: rgb(63, 17, 107);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 70%;
+    margin-left: 10px;
+}
+.header h2 {
+    margin-left: 20px;
+}
+.header nav {
+    margin-left: auto;
+}
+.header nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+ 
+
+}
+.header nav ul li {
+    border: dotted 3px rgb(63, 17, 107);
+    margin: 15px;
+    padding: 10px;
+}
+.header nav ul li a {
+    color: rgb(63, 17, 107);
+    text-decoration: none;
+}
+.header nav ul li a:hover {
+    color: black;
+    font-weight: bold;
+}
